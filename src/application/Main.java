@@ -23,6 +23,8 @@ public class Main extends Application {
 			primaryStage.setTitle("Sample JavaFX application");
 			primaryStage.show();
 			System.out.println();
+			
+			int a = 25;
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
