@@ -24,7 +24,6 @@ public class Main extends Application {
 			primaryStage.show();
 			System.out.println();
 			
-			int a = 25;
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
