@@ -7,7 +7,6 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 import application.Main;
-import db.DbException;
 import db.DbIntegrityException;
 import gui.listeners.DataChangeListener;
 import gui.util.Alerts;
@@ -77,7 +76,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 																				// Janela
 	}
 
-	// Responsavel por acessar o serviço e carregar departameto e jogar na obsList,
+	// Responsavel por acessar o serviï¿½o e carregar departameto e jogar na obsList,
 	// depois ira associar ele na tableView
 	public void updateTableView() {
 		if (service == null) {

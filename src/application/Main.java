@@ -22,11 +22,12 @@ public class Main extends Application {
 			primaryStage.setScene(mainScene);
 			primaryStage.setTitle("Sample JavaFX application");
 			primaryStage.show();
+			System.out.println();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
-
+		
 	public static void main(String[] args) {
 		launch(args);
 	}
